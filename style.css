@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap');
+
+.primary-font{
+    font-family: 'EB Garamond', serif;
+}
+.secondary-font{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+}
+.carousel-banner{
+    height: 500px;
+}
+.cz-carousel-item-1{
+    background-image: url('images/slider-1.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.cz-carousel-item-2{
+    background-image: url('images/slider-2.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.cz-carousel-item-3{
+    background-image: url('images/slider-3.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.email-input::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
